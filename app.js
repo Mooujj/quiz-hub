@@ -63,7 +63,6 @@ function renderLanding() {
         `
         ).join("")}
       </div>
-      <small class="helper">Quizzes are loaded from <code>quizzes.json</code>.</small>
     </section>
   `;
 }
