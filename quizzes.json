@@ -254,6 +254,83 @@
       ]
     },
     {
+      "id": "lymphaticSystemAnatomyQuiz",
+      "title": "Lymphatic System Anatomy Quiz",
+      "description": "Human Body 2 — Week 2",
+      "questions": [
+        {
+          "type": "true-false",
+          "text": "The lymphatic system plays a critical role in the immune response by transporting and filtering lymphatic fluid",
+          "answer": "true"
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which lymphatic structure is located in the upper left quadrant of the abdomen and is involved in filtering blood?",
+          "options": ["Spleen", "Thymus", "Peyer's patches", "Tonsils"],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "The primary function of lymph nodes is to",
+          "options": [
+            "Filter lymph and trap pathogens",
+            "Store calcium",
+            "Produce red blood cells",
+            "Produce hormones"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "true-false",
+          "text": "Lymph is a clear fluid that resembles blood plasma but lacks red blood cells",
+          "answer": "true"
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which of the following is NOT a primary component of the lymphatic system?",
+          "options": [
+            "Red blood cells",
+            "Lymph nodes",
+            "Lymph vessels",
+            "Spleen"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "true-false",
+          "text": "The tonsils are part of the lymphatic system and help protect against pathogens entering through the mouth and nose",
+          "answer": "true"
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Where does the lymphatic system ultimately drain into the circulatory system?",
+          "options": [
+            "Left subclavian vein",
+            "Jugular vein",
+            "Inferior vena cava",
+            "Right subclavian vein"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "true-false",
+          "text": "The thoracic duct is the larger of the two main lymphatic ducts and drains lymph from the upper right side of the body",
+          "answer": "false"
+        },
+        {
+          "type": "true-false",
+          "text": "The lymphatic system is a one-way system that returns lymph to the heart",
+          "answer": "true"
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which of the following lymphatic structures is primarily responsible for the maturation of T lymphocytes?",
+          "options": ["Thymus", "Tonsils", "Spleen", "PeyerÆs patches"],
+          "answerIndex": 0
+        }
+      ]
+    },
+    {
       "id": "lymphaticSystemQuiz",
       "title": "Lymphatic System Quiz",
       "description": "Human Body 2 — Week 2",
