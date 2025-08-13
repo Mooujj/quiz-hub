@@ -184,7 +184,7 @@ main,
   background: #0b152a;
 }
 .option:hover {
-  border-color: #334155;
+  border-color: linear-gradient(180deg, #0b1220, #0b1220) padding-box;
 }
 .option input {
   accent-color: #10b981;
