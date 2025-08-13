@@ -252,6 +252,158 @@
           "answerIndex": 0
         }
       ]
+    },
+    {
+      "id": "lymphaticSystemQuiz",
+      "title": "Lymphatic System Quiz",
+      "description": "Human Body 2 — Week 2",
+      "questions": [
+        {
+          "type": "multiple-choice-single",
+          "text": "What is the primary function of the lymphatic system?",
+          "options": [
+            "Fluid balance and immune response",
+            "Hormone regulation",
+            "Oxygen transport",
+            "Nutrient absorption"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which of the following structures is NOT part of the lymphatic system?",
+          "options": ["Liver", "Spleen", "Lymph nodes", "Thymus"],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "What fluid is transported by the lymphatic system?",
+          "options": [
+            "Interstitial fluid",
+            "Blood",
+            "Cerebrospinal fluid",
+            "Synovial fluid"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "The lymphatic system plays a crucial role in:",
+          "options": [
+            "Absorption of dietary fats",
+            "Muscle contraction",
+            "Hormone secretion",
+            "Digestive enzyme production"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which type of lymphatic vessel is responsible for absorbing dietary fats from the small intestine?",
+          "options": [
+            "Lacteals",
+            "Lymphatic ducts",
+            "Thoracic duct",
+            "Lymphatic capillaries"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Where do lymphatic vessels primarily drain into the circulatory system?",
+          "options": [
+            "Left subclavian vein",
+            "Right subclavian vein",
+            "Left atrium",
+            "Right atrium"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "What is the function of lymph nodes?",
+          "options": [
+            "Filter lymph and trap pathogens",
+            "Produce red blood cells",
+            "Store bile",
+            "Transport nutrients"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which organ is involved in the maturation of T lymphocytes?",
+          "options": ["Thymus", "Liver", "Spleen", "Bone marrow"],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "The spleenÆs primary functions include",
+          "options": [
+            "Filtration of blood and immune response",
+            "Absorption of fatty acids",
+            "Production of insulin and bile",
+            "Regulation of blood glucose"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "What is the term for the condition where lymphatic vessels become obstructed, leading to fluid accumulation in tissues?",
+          "options": ["Lymphoedema", "Ascites", "Oedema", "Haematoma"],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which lymphatic structure collects lymph from the lower body and left side of the body?",
+          "options": [
+            "Thoracic duct",
+            "Cisterna chyli",
+            "Right lymphatic duct",
+            "Left subclavian vein"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "What is the primary role of lymphocytes within the lymphatic system?",
+          "options": [
+            "Immune response and pathogen destruction",
+            "Digesting pathogens",
+            "Secreting digestive enzymes",
+            "Transporting oxygen"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "What is the role of the lymphatic capillaries in the tissue fluid exchange process?",
+          "options": [
+            "Absorb excess interstitial fluid and return it to the bloodstream",
+            "Transport hormones to target tissues",
+            "Deliver nutrients to cells",
+            "Remove carbon dioxide from the tissues"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "In which lymphatic organ is lymphoid tissue primarily concentrated?",
+          "options": ["Lymph nodes", "Bone marrow", "Liver", "Thymus"],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "What is the significance of the \"cisterna chyli\" in the lymphatic system?",
+          "options": [
+            "It is a large lymphatic reservoir that receives lymph from the lower body",
+            "It filters blood from the liver",
+            "It is an organ involved in red blood cell destruction",
+            "It is a major lymph node in the abdomen"
+          ],
+          "answerIndex": 0
+        }
+      ]
     }
   ]
 }
