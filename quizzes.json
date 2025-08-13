@@ -1,0 +1,171 @@
+{
+  "quizzes": [
+    {
+      "id": "immunityQuiz",
+      "title": "Immunity Quiz",
+      "description": "Human Body 2 — Week 1",
+      "questions": [
+        {
+          "type": "multiple-choice-single",
+          "text": "Which type of immunity is characterized by the production of antibodies by B cells?",
+          "options": [
+            "Humoral immunity",
+            "Innate immunity",
+            "Adaptive immunity",
+            "Cellular immunity"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "What is the primary function of T-helper cells (CD4+ T cells)?",
+          "options": [
+            "Assist in the activation of B cells and other immune cells",
+            "Phagocytose pathogens",
+            "Directly kill infected cells",
+            "Produce antibodies"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which organ is primarily responsible for the maturation of T lymphocytes?",
+          "options": ["Thymus", "Lymph node", "Bone marrow", "Spleen"],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which of the following is NOT a component of the innate immune system?",
+          "options": [
+            "Antibodies",
+            "Complement system",
+            "Natural killer cells",
+            "Phagocytes"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which class of immunoglobulins is the most abundant in the blood and provides long-term immunity?",
+          "options": ["IgG", "IgA", "IgM", "IgE"],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which cells are responsible for the phagocytosis of pathogens in the bloodstream and tissues?",
+          "options": ["Neutrophils", "T cells", "B cells", "Eosinophils"],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "In the context of immunology, what does the term \"autoimmune disease\" refer to?",
+          "options": [
+            "A disease where the immune system attacks the body's own tissues",
+            "A disease where there is a complete lack of immune response",
+            "A disease caused by a pathogen",
+            "A disease resulting from an overactive immune response to external antigens"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "What role do macrophages play in the immune response?",
+          "options": [
+            "They present antigens to T cells",
+            "They directly kill infected cells",
+            "They activate B cells",
+            "They produce antibodies"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which of the following cytokines is known for its role in fever production during an infection?",
+          "options": [
+            "All of the above",
+            "Interleukin-6 (IL-6)",
+            "Tumor necrosis factor-alpha (TNF-alpha)",
+            "Interleukin-0 (IL-0)"
+          ],
+          "answerIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "activeImmunityQuiz",
+      "title": "Active Immunity Quiz",
+      "description": "Human Body 2 — Week 1",
+      "questions": [
+        {
+          "type": "true-false",
+          "text": "Active immunity can be acquired through natural infection or vaccination",
+          "answer": true
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which of the following is an example of active immunity?",
+          "options": [
+            "Receiving a tetanus shot",
+            "Getting antibodies from breast milk",
+            "Receiving intravenous immunoglobulin",
+            "Transfusion of blood products"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "true-false",
+          "text": "Active immunity is provided by antibodies that are introduced into the body from an external source",
+          "answer": false
+        },
+        {
+          "type": "true-false",
+          "text": "Active immunity is typically more specific to a pathogen compared to passive immunity",
+          "answer": true
+        },
+        {
+          "type": "true-false",
+          "text": "Booster doses of vaccines can help to enhance and prolong the effects of active immunity",
+          "answer": true
+        },
+        {
+          "type": "true-false",
+          "text": "The development of active immunity takes immediate effect after exposure to the pathogen",
+          "answer": false
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "What is the primary benefit of active immunity over passive immunity?",
+          "options": [
+            "Active immunity lasts longer and provides memory for future exposure",
+            "Active immunity is not affected by booster doses",
+            "Active immunity provides immediate protection",
+            "Active immunity does not require any prior exposure"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "How long does active immunity typically last?",
+          "options": [
+            "Several months to years.",
+            "It lasts only as long as the antibody is present in the blood",
+            "A few days",
+            "Several weeks to months"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "What is active immunity?",
+          "options": [
+            "Immunity developed by exposure to a pathogen or vaccine",
+            "Immunity that occurs immediately after exposure to a pathogen",
+            "Immunity provided by medications",
+            "Immunity developed through the transfer of antibodies from another individual"
+          ],
+          "answerIndex": 0
+        }
+      ]
+    }
+  ]
+}
