@@ -819,6 +819,102 @@
           "answerIndex": 0
         }
       ]
+    },
+    {
+      "id": "pHBuffersQuiz1",
+      "title": "pH & Buffers Quiz 1",
+      "description": "Human Body 2 — Week 3",
+      "questions": [
+        {
+          "type": "multiple-choice-single",
+          "text": "Which of the following is the primary buffer system in the human body?",
+          "options": [
+            "Bicarbonate buffer",
+            "Ammonia buffer",
+            "Phosphate buffer",
+            "Protein buffer"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which of the following conditions is a result of respiratory alkalosis?",
+          "options": [
+            "Hyperventilation",
+            "Diabetic ketoacidosis",
+            "Renal failure",
+            "Hypoventilation"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which organ is primarily responsible for regulating the bicarbonate buffer system?",
+          "options": ["Kidneys", "Lungs", "Heart", "Liver"],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which of the following would likely cause metabolic alkalosis?",
+          "options": [
+            "Excessive vomiting",
+            "Lactic acidosis",
+            "Renal failure",
+            "Excessive diarrhoea"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "If the pH of the blood falls below 7.35, what condition is it indicative of?",
+          "options": ["Acidosis", "Hypoxia", "Alkalosis", "Hyperventilation"],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "What happens when the pH of the blood becomes too acidic?",
+          "options": [
+            "The body increases CO2 elimination",
+            "The respiratory rate decreases",
+            "Haemoglobin binds oxygen more efficiently",
+            "The kidneys excrete more bicarbonate"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which of the following can cause metabolic acidosis?",
+          "options": [
+            "Diabetic ketoacidosis",
+            "Vomiting",
+            "Hyperventilation",
+            "Chronic respiratory failure"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "What is the role of a buffer in the body?",
+          "options": [
+            "To neutralise excessive hydrogen ions (H+) or hydroxide ions (OH-)",
+            "To produce more carbon dioxide",
+            "To increase the pH of the urine",
+            "To increase the acidity of body fluids"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "How does the body compensate for respiratory acidosis?",
+          "options": [
+            "The kidneys retain bicarbonate ions",
+            "The lungs increase CO2 elimination",
+            "The kidneys excrete hydrogen ions",
+            "The body releases more hydrogen ions"
+          ],
+          "answerIndex": 0
+        }
+      ]
     }
   ]
 }
