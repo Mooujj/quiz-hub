@@ -652,6 +652,173 @@
           "answerIndex": 0
         }
       ]
+    },
+    {
+      "id": "microbiotaQuiz",
+      "title": "Microbiota Quiz",
+      "description": "Human Body 2 — Week 2",
+      "questions": [
+        {
+          "type": "multiple-choice-single",
+          "text": "Which of the following is TRUE about biofilms?",
+          "options": [
+            "Biofilms can be found on medical devices and tissues, and they can increase resistance to antibiotics",
+            "They consist only of bacteria",
+            "They are always harmful to the human body",
+            "Biofilms are never found in hospitals"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "What type of infection is commonly associated with the formation of biofilms on indwelling medical devices?",
+          "options": [
+            "Urinary tract infections",
+            "Bacterial endocarditis",
+            "Skin rashes",
+            "Pneumonia"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "What is the human microbiota?",
+          "options": [
+            "The community of microorganisms (bacteria, viruses, fungi, etc.) that live in and on the human body",
+            "A single species of bacteria living in the body",
+            "The body's immune system",
+            "A group of harmful bacteria only found in the intestines"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "What is a biofilm?",
+          "options": [
+            "A community of microorganisms embedded in a protective layer of extracellular polymeric substances (EPS)",
+            "A single-celled organism found in the human body",
+            "A natural antibiotic produced by bacteria",
+            "A type of antibiotic-resistant bacteria"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which of these factors contributes to the formation of biofilms?",
+          "options": [
+            "Surface adhesion and availability of nutrients",
+            "Which of these factors contributes to the formation of biofilms?",
+            "Low microbial diversity",
+            "Presence of antibiotics"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which of the following is a benefit of probiotics for human health?",
+          "options": [
+            "They can help restore the balance of the microbiota, especially after antibiotic treatment",
+            "They can cure viral infections",
+            "They can cause bacterial resistance",
+            "They can eliminate all harmful bacteria in the body"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "What are probiotics?",
+          "options": [
+            "Live microorganisms that provide health benefits when consumed in adequate amounts",
+            "Drugs that kill harmful bacteria",
+            "Viruses that treat bacterial infections",
+            "A type of synthetic antibiotic"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "How do antibiotics contribute to the formation of antibiotic-resistant biofilms?",
+          "options": [
+            "They select for bacteria that can survive in the presence of antibiotics, encouraging the development of resistance",
+            "They prevent the biofilm from forming",
+            "They kill the biofilm-producing bacteria",
+            "They promote the growth of the biofilm"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "What is an example of a disease that can be caused by an imbalance in the microbiota?",
+          "options": [
+            "Irritable bowel syndrome (IBS)",
+            "Alzheimer's disease",
+            "Tuberculosis",
+            "Type 1 Diabetes Mellitus"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which of the following is an example of a prebiotic?",
+          "options": [
+            "Garlic and onions, which support the growth of beneficial bacteria",
+            "Yogurt containing Lactobacillus bacteria",
+            "Antifungal medication",
+            "Antibiotics"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which of the following is the most common site for microbial colonization in the human body?",
+          "options": ["Gastrointestinal tract", "Skin", "Kidneys", "Lungs"],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "What is one of the most common clinical implications of biofilms in healthcare settings?",
+          "options": [
+            "They increase the difficulty in treating infections, as biofilms are more resistant to antibiotics",
+            "They cause rapid recovery from infections",
+            "They make it easier to treat infections with antibiotics",
+            "Biofilms only affect healthy patients"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which of the following is a characteristic of the microbiota of the skin?",
+          "options": [
+            "It contains a variety of microorganisms that help protect the skin from harmful bacteria",
+            "It is composed mostly of harmful pathogens",
+            "It is sterile in healthy individuals",
+            "It only includes viruses"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which of the following best describes the relationship between the microbiota and human health?",
+          "options": [
+            "A balanced microbiota is essential for optimal health, helping with digestion, immune response, and protection against pathogens",
+            "The microbiota is always harmful and should be eradicated",
+            "The microbiota has no impact on human health",
+            "The microbiota only affects the digestive system"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "What is the role of biotics in managing health?",
+          "options": [
+            "They can be used to maintain a balanced microbiota, supporting immune function, digestion, and other aspects of health",
+            "Biotics are only used in the treatment of bacterial infections",
+            "They serve as a cure for all diseases",
+            "They are synthetic compounds that harm the microbiota."
+          ],
+          "answerIndex": 0
+        }
+      ]
     }
   ]
 }
