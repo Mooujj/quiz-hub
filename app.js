@@ -90,26 +90,18 @@ function shuffle(arr) {
   }
   return a;
 }
+
 function normalizeTF(q) {
-  const options =
-    q.options && q.options.length === 2 ? q.options.slice() : ["True", "False"];
+  const options = ["True", "False"];
   let answerIndex;
-  if (typeof q.answerIndex === "number") {
-    answerIndex = q.answerIndex;
-  } else if (typeof q.answer === "boolean") {
-    const idxTrue = options.findIndex(
-      (o) => String(o).trim().toLowerCase() === "true"
-    );
-    const idxFalse = options.findIndex(
-      (o) => String(o).trim().toLowerCase() === "false"
-    );
-    answerIndex = q.answer
-      ? idxTrue !== -1
-        ? idxTrue
-        : 0
-      : idxFalse !== -1
-      ? idxFalse
-      : 1;
+  if (typeof q.answer === "boolean") {
+    answerIndex = q.answer ? 0 : 1;
+  } else if (typeof q.answerIndex === "number") {
+    answerIndex =
+      q.answerIndex === 0 || q.answerIndex === 1 ? q.answerIndex : 0;
+  } else if (typeof q.answer === "string") {
+    const s = q.answer.trim().toLowerCase();
+    answerIndex = s === "true" ? 0 : s === "false" ? 1 : 0;
   } else {
     answerIndex = 0;
   }
@@ -117,15 +109,22 @@ function normalizeTF(q) {
 }
 
 function prepareRandomisedQuiz(quiz) {
-  const orderQ = shuffle(quiz.questions.map((_, i) => i));
+  const orderQ = shuffle(quiz.questions.map((_, i) => i)); // keep question shuffling
   const questions = orderQ.map((i) => {
     const raw = quiz.questions[i];
     const type = qType(raw);
-    const base = type === "true-false" ? normalizeTF(raw) : { ...raw };
-
+    if (type === "true-false") {
+      const base = normalizeTF(raw);
+      return {
+        type,
+        text: base.text,
+        options: base.options,
+        answerIndex: base.answerIndex,
+      };
+    }
+    const base = { ...(type === "true-false" ? normalizeTF(raw) : raw) };
     const optIdx = shuffle(base.options.map((_, j) => j));
     const options = optIdx.map((j) => base.options[j]);
-
     if (type === "multiple-choice-multiple") {
       const src = Array.isArray(base.answerIndexes) ? base.answerIndexes : [];
       const mapped = src
@@ -133,16 +132,24 @@ function prepareRandomisedQuiz(quiz) {
         .filter((x) => x >= 0)
         .sort((a, b) => a - b);
       return { type, text: base.text, options, answerIndexes: mapped };
+    } else {
+      const newAns = optIdx.indexOf(base.answerIndex ?? 0);
+      return { type, text: base.text, options, answerIndex: newAns };
     }
-    const newAns = optIdx.indexOf(base.answerIndex ?? 0);
-    return { type, text: base.text, options, answerIndex: newAns };
   });
-
   return { ...quiz, questions };
 }
 
 function reshuffleQuestionAt(i) {
   const q = CURRENT.quiz.questions[i];
+  if ((q.type || "").toLowerCase() === "true-false") {
+    CURRENT.quiz.questions[i] = {
+      ...q,
+      options: ["True", "False"],
+      answerIndex: q.answerIndex === 1 ? 1 : 0,
+    };
+    return;
+  }
   const indices = shuffle(q.options.map((_, j) => j));
   const options = indices.map((j) => q.options[j]);
   if (q.type === "multiple-choice-multiple") {
