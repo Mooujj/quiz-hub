@@ -143,22 +143,33 @@ main,
   outline-offset: 2px;
 }
 
-/* Quiz header */
+/* Header layout */
 .quiz-header {
   display: flex;
-  gap: 12px;
   align-items: center;
-  margin-bottom: 12px;
+  gap: 12px;
 }
+
+.quiz-header h2 {
+  margin: 0;
+  flex: 1 1 auto;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .badge {
-  font-size: 0.8rem;
-  color: #052e13;
-  background: #86efac;
+  flex: 0 0 auto;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  padding: 2px 8px;
+  line-height: 1.1;
   border-radius: 999px;
-  padding-top: 4px;
-  padding-bottom: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
+}
+
+@media (max-width: 400px) {
+  .badge { font-size: 0.75rem; padding: 2px 6px; }
 }
 
 /* Progress */
