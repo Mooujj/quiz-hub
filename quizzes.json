@@ -481,6 +481,177 @@
           "answerIndex": 0
         }
       ]
+    },
+    {
+      "id": "microbialSystemQuiz",
+      "title": "Microbial System Quiz",
+      "description": "Human Body 2 — Week 2",
+      "questions": [
+        {
+          "type": "multiple-choice-single",
+          "text": "Which of the following describes an example of a pathogenic microorganism in the human body?",
+          "options": [
+            "Staphylococcus aureus causing a skin infection",
+            "Lactobacillus producing beneficial acids",
+            "Human gut bacteria breaking down fibre",
+            "Lactic acid bacteria preventing harmful bacteria growth"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "The human gut microbiota plays an important role in",
+          "options": [
+            "All are correct",
+            "Immune function",
+            "Metabolism",
+            "Digestion"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which of the following is an example of parasitism?",
+          "options": [
+            "Malaria-causing Plasmodium parasite in the bloodstream of humans",
+            "E. coli bacteria in the intestines providing vitamin K to humans",
+            "Lichens formed by a fungus and an alga",
+            "Skin bacteria that do not harm or benefit humans"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which type of microorganism causes tuberculosis?",
+          "options": ["Bacteria", "Protozoa", "Fungus", "Virus"],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "What is the relationship between the human skin and the microorganisms that normally reside there?",
+          "options": [
+            "Commensalism",
+            "Mutualism",
+            "Parasitism",
+            "Both commensalism and parasitism"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which of the following is a type of relationship where one organism benefits and the other is neither helped nor harmed?",
+          "options": ["Commensalism", "Predation", "Parasitism", "Mutualism"],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which of the following is an example of mutualism in humans?",
+          "options": [
+            "Bacteria in the intestines that help digest food",
+            "Fungus growing on the skin",
+            "Viruses infecting human cells",
+            "Pathogenic bacteria causing an infection"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "A relationship in which one organism benefits and the other is harmed, but not necessarily killed, is called",
+          "options": ["Parasitism", "Symbiosis", "Commensalism", "Mutualism"],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which of the following is NOT a classification of microorganisms?",
+          "options": ["Trees", "Bacteria", "Viruses", "Fungi"],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "What type of microorganism is responsible for causing the flu in humans?",
+          "options": ["Virus", "Protozoa", "Fungi", "Bacteria"],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "What is the relationship between humans and the bacteria in the gut that help break down complex carbohydrates?",
+          "options": ["Mutualism", "Parasitism", "Predation", "Commensalism"],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which of the following is an example of an opportunistic pathogen?",
+          "options": [
+            "Candida albicans causing infection in immunocompromised individuals",
+            "Clostridium botulinum causing botulism in healthy individuals",
+            "Mycobacterium tuberculosis causing lung disease in healthy individuals",
+            "Streptococcus pneumoniae in healthy lungs"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "What is the term for microorganisms that are capable of causing diseases?",
+          "options": ["Pathogens", "Symbionts", "Non-pathogens", "Probiotics"],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "What term describes the relationship between two organisms where both organisms benefit?",
+          "options": ["Mutualism", "Commensalism", "Amensalism", "Parasitism"],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which of the following microorganisms is responsible for the infection known as \"athlete's foot\"?",
+          "options": ["Fungi", "Protozoa", "Virus", "Bacteria"],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which of the following is an example of commensalism?",
+          "options": [
+            "Staphylococcus bacteria on human skin",
+            "Lice on human scalp",
+            "Tapeworm in the human intestine",
+            "Rhizobium bacteria in plant roots"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which of the following human-associated bacteria is an example of a pathogen that can cause a urinary tract infection?",
+          "options": [
+            "Escherichia coli",
+            "Bifidobacterium",
+            "Lactobacillus",
+            "Streptococcus mutans"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which of the following is true regarding the role of fungi in human health?",
+          "options": [
+            "Fungi can be pathogens causing infections like athlete's foot or ringworm",
+            "Fungi never cause disease in humans",
+            "Fungi only cause allergic reactions",
+            "Fungi are typically beneficial and help digest food"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "type": "multiple-choice-single",
+          "text": "Which of the following best describes the role of microorganisms in the human body?",
+          "options": [
+            "They can be harmful, beneficial, or neutral",
+            "They are all harmful",
+            "They have no impact on the human body",
+            "Only harmful and cause diseases"
+          ],
+          "answerIndex": 0
+        }
+      ]
     }
   ]
 }
