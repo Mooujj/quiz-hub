@@ -325,7 +325,7 @@
         {
           "type": "multiple-choice-single",
           "text": "Which of the following lymphatic structures is primarily responsible for the maturation of T lymphocytes?",
-          "options": ["Thymus", "Tonsils", "Spleen", "PeyerÆs patches"],
+          "options": ["Thymus", "Tonsils", "Spleen", "Peyer's patches"],
           "answerIndex": 0
         }
       ]
@@ -415,7 +415,7 @@
         },
         {
           "type": "multiple-choice-single",
-          "text": "The spleenÆs primary functions include",
+          "text": "The spleen's primary functions include",
           "options": [
             "Filtration of blood and immune response",
             "Absorption of fatty acids",
@@ -707,7 +707,6 @@
           "text": "Which of these factors contributes to the formation of biofilms?",
           "options": [
             "Surface adhesion and availability of nutrients",
-            "Which of these factors contributes to the formation of biofilms?",
             "Low microbial diversity",
             "Presence of antibiotics"
           ],
